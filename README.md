@@ -71,6 +71,4 @@ Thanks to the following developers for their contributions to GTNH-Guide-Pack:
 
 Disclaimer
 ----
-This project is a community authored guide pack and will not be included in the official GT:NH release. Respect the licenses of the original modpack and included mods when redistributing content.
-
 GuideNH does not provide the distribution of the server guidance.
