@@ -9,8 +9,8 @@ GTNH players currently rely on fragmented external resources — the Wiki, Disco
 GuideNH is an in‑game guide framework that solves the fragmentation problem by rendering Markdown content inside Minecraft (1.7.10). It is a framework only — documentation content (machines, progression, tutorials) is written by contributors and distributed as resource packs or mod assets.
 
 Key idea and project links:
-- Repository: https://github.com/ABKQPO/GuideNH
-- Wiki: https://github.com/ABKQPO/GuideNH/wiki
+- Repository: https://github.com/GTNewHorizons/GuideNH
+- Wiki: https://github.com/GTNewHorizons/GuideNH/wiki
 
 Features
 ----
@@ -24,7 +24,7 @@ Features
 
 Quick Start
 ----
-1. Clone this repo and read [getting-started.md](https://github.com/ABKQPO/GuideNH/blob/master/wiki/Getting-Started.md) for the authoring basics.
+1. Clone this repo and read [getting-started.md](https://github.com/GTNewHorizons/GuideNH/blob/master/wiki/Getting-Started.md) for the authoring basics.
 2. Write guide pages in Markdown under docs/ following the provided templates.
 3. Test locally with GuideNH live preview (see GuideNH repo for preview tool) or package into a resource pack and drop into the client resourcepacks/ directory.
 4. Submit content via PR to this repository or another GuideNH-enabled project.
@@ -65,8 +65,8 @@ For full license text, check LICENSE.txt or go to [Creative Commons](https://cre
 
 Thanks to the following developers for their contributions to GTNH-Guide-Pack:
 
-<a href="https://github.com/ABKQPO/GTNH-Guide-Pack/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ABKQPO/GTNH-Guide-Pack&max=1000" alt="contributors" />
+<a href="https://github.com/GTNewHorizons/GTNH-Guide-Pack/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=GTNewHorizons/GTNH-Guide-Pack&max=1000" alt="contributors" />
 </a>
 
 Disclaimer
