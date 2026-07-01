@@ -54,9 +54,6 @@ git push origin 1.0.1
 
 The `release-tags.yml` workflow then stamps the tag into `pack.mcmeta` (`ntnh_resource_pack_updater.pack_version`), builds `NTNH-Guide-Pack-<version>.zip`, generates a `ntnh-pack-update.json` metadata asset, and publishes a GitHub release for the tag (replacing any existing release for that tag).
 
-Distribution:
-- GTNHLib's in-game ResourcePackUpdater notifies players (chat link, no auto-install) when a newer compatible release exists. Targeting is controlled by `ntnh_resource_pack_updater.pack_game_version` in `pack.mcmeta` (the GTNH line, e.g. `2.9.X`, or `2.8.X;2.9.X` for both) - this is the GTNH line, not the Minecraft version. Beta and stable within one minor (e.g. 2.9-beta and 2.9) cannot be targeted separately.
-
 License
 ----
 [![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
