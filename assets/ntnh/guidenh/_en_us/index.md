@@ -14,8 +14,8 @@ Nuclear Tech: New Horizons is a Minecraft 1.7.10 modpack centered around <ItemLi
 
 ## Guide Sections
 
-- [Applied Energistics 2](appliedenergistics2:index.md) - ME networks, channels, autocrafting
-- [Features & Tweaks](changelog:misc/misc.md) - Mod changes, additions, and quality-of-life improvements
+- [Applied Energistics 2](appliedenergistics2:index.md) - everything about ME systems
+- [Features & Tweaks](changelog:misc/misc.md) - quality of life and more!
 
 ## External Resources
 
