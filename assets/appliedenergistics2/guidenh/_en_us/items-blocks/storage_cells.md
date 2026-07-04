@@ -12,7 +12,6 @@ item_ids:
 - ae2fc:fluid_storage_housing:2
 - ae2fc:fluid_storage_housing:1
 - ae2fc:fluid_storage_housing:3
-- thaumicenergistics:storage.casing
 - appliedenergistics2:item.ItemMultiMaterial:39
 - ae2fc:fluid_storage_housing
 - appliedenergistics2:item.ItemMultiMaterial:61
@@ -69,25 +68,6 @@ item_ids:
 - ae2fc:fluid_part:5
 - ae2fc:fluid_part:6
 - ae2fc:fluid_part:7
-- thaumicenergistics:storage.essentia
-- thaumicenergistics:storage.essentia:1
-- thaumicenergistics:storage.essentia:2
-- thaumicenergistics:storage.essentia:3
-- thaumicenergistics:storage.essentia:4
-- thaumicenergistics:storage.essentia:5
-- thaumicenergistics:storage.essentia:6
-- thaumicenergistics:storage.essentia:7
-- thaumicenergistics:storage.essentia:8
-- thaumicenergistics:storage.essentia:9
-- thaumicenergistics:storage.essentia:10
-- thaumicenergistics:storage.component
-- thaumicenergistics:storage.component:1
-- thaumicenergistics:storage.component:2
-- thaumicenergistics:storage.component:3
-- thaumicenergistics:storage.component:5
-- thaumicenergistics:storage.component:6
-- thaumicenergistics:storage.component:7
-- thaumicenergistics:storage.component:8
 - appliedenergistics2:item.ItemCreativeStorageCell
 - ae2fc:creative_fluid_storage
 ---
@@ -117,18 +97,6 @@ item_ids:
     <ItemImage id="ae2fc:fluid_storage.singularity" scale="4" />
 
     <ItemImage id="ae2fc:fluid_storage.Universe" scale="4" />
-  </Row>
-  
-  <Row>
-    <ItemImage id="thaumicenergistics:storage.essentia" scale="4" />
-
-    <ItemImage id="thaumicenergistics:storage.essentia:8" scale="4" />
-
-    <ItemImage id="thaumicenergistics:storage.essentia:9" scale="4" />
-
-    <ItemImage id="thaumicenergistics:storage.essentia:10" scale="4" />
-
-    <ItemImage id="thaumicenergistics:storage.essentia:4" scale="4" />
   </Row>
 </Column>
 
@@ -174,18 +142,6 @@ The [upfront cost of types](../ae2-mechanics/bytes-and-types.md) is such that a 
 | <ItemLink id="ae2fc:fluid_storage.Universe" scale="4" />    |          9.22E |          9.22E |
 
 ---
-
-| Essentia Storage Cell | Types | Total Essentia Capacity (No Type Overhead) |
-| --- | ---: | ---: |
-| <ItemLink id="thaumicenergistics:storage.essentia" scale="4" />   | 12 |      2,048 |
-| <ItemLink id="thaumicenergistics:storage.essentia:1" scale="4" /> | 12 |      8,192 |
-| <ItemLink id="thaumicenergistics:storage.essentia:2" scale="4" /> | 12 |     32,768 |
-| <ItemLink id="thaumicenergistics:storage.essentia:3" scale="4" /> | 12 |    131,072 |
-| <ItemLink id="thaumicenergistics:storage.essentia:5" scale="4" /> | 24 |    524,288 |
-| <ItemLink id="thaumicenergistics:storage.essentia:6" scale="4" /> | 36 |  2,097,152 |
-| <ItemLink id="thaumicenergistics:storage.essentia:7" scale="4" /> | 48 |  8,388,608 |
-| <ItemLink id="thaumicenergistics:storage.essentia:8" scale="4" /> | 60 | 33,554,432 |
-| <ItemLink id="thaumicenergistics:storage.essentia:9" scale="4" /> |  1 |       268M |
 
 ## Partitioning
 
@@ -241,11 +197,6 @@ Most storage cells are assembled from a Storage Component and a corresponding Ho
 <br> <RecipesFor id="ae2fc:multi_fluid_storage256" output="ae2fc:multi_fluid_storage256" />
 <br> Housings by themselves are crafted like so:
 <br> <RecipesFor id="ae2fc:fluid_storage_housing:3" />
-
-*   <ItemLink id="thaumicenergistics:storage.casing" /> used for crafting Essentia Storage Cells
-<br> <RecipesFor id="thaumicenergistics:storage.essentia" output="thaumicenergistics:storage.essentia" />
-<br> Housings by themselves are crafted like so:
-<br> <RecipesFor id="thaumicenergistics:storage.casing" />
 
 # Storage Components
 
@@ -367,27 +318,6 @@ Portable Fluid Storage Cells can store up to five fluid types and have a total c
 They do not support any upgrade cards.
 
 <RecipesFor id="ae2fc:portable_fluid_cell" />
-
-# Essentia Storage Components
-
-Essentia Storage Components are the core of ME Essentia Storage Cells and determine their storage capacity.
-
-Each tier increases capacity by a factor of four and requires four components of the previous tier to craft. They can also be manufactured directly in a Circuit Assembler.
-
-# Essentia Storage Cells
-
-1k - 64k Essentia Storage Cells support 12 Essentia types
-
-Starting at 256k, each tier increases the supported Essentia type count by 12
-
-## Special Essentia Storage Cells
-
-*   <ItemLink id="thaumicenergistics:storage.essentia:9" /> can store only a single Essentia type and provides 134,217,727 bytes of storage capacity
-<br><Recipe id="thaumicenergistics:storage.essentia:9" />
-*   <ItemLink id="thaumicenergistics:storage.essentia:10" /> can store only a single Essentia type and provides 2,305,843,009,213,693,951 bytes of storage capacity
-<br><Recipe id="thaumicenergistics:storage.essentia:10" />
-*   <ItemLink id="thaumicenergistics:storage.essentia:4" /> can provide infinite amounts of every Essentia type, up to 4,503,599,627,370,495 units per type
-<br><Recipe id="thaumicenergistics:storage.essentia:4" />
 
 # Creative Storage Cells
 
