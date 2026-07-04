@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: /items-blocks-machines-index.md
+  parent: /items-blocks-index.md
   title: Upgrade Cards
   icon: speed_card
   position: 410
