@@ -212,32 +212,32 @@ Storage cells support the following upgrades, inserted via a <ItemLink id="appli
 
 Most storage cells are assembled from a Storage Component and a corresponding Housing. Different capacities and storage types require different housings. Certain special storage cells are crafted directly and do not require housings.
 
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:39" /> used for crafting 1k – 64k Item Storage Cells
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:39" /> used for crafting 1k - 64k Item Storage Cells
 <br> <RecipesFor id="appliedenergistics2:item.ItemBasicStorageCell.1k" output="appliedenergistics2:item.ItemBasicStorageCell.1k" />
 <br> Housings by themselves are crafted like so:
 <br> <RecipesFor id="appliedenergistics2:item.ItemMultiMaterial:39" limit="3" />
 
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:61" /> used for crafting 256k – 16384k Item Storage Cells
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:61" /> used for crafting 256k - 16384k Item Storage Cells
 <br> <RecipesFor id="appliedenergistics2:item.ItemAdvancedStorageCell.256k" output="appliedenergistics2:item.ItemAdvancedStorageCell.256k" />
 <br> Housings by themselves are crafted like so:
 <br> <RecipesFor id="appliedenergistics2:item.ItemMultiMaterial:61" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing" /> used for crafting 1k – 64k Fluid Storage Cells
+*   <ItemLink id="ae2fc:fluid_storage_housing" /> used for crafting 1k - 64k Fluid Storage Cells
 <br> <RecipesFor id="ae2fc:fluid_storage1" output="ae2fc:fluid_storage1"/>
 <br> Housings by themselves are crafted like so:
 <br> <RecipesFor id="ae2fc:fluid_storage_housing" handlerId="gt.recipe.assembler" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:1" /> used for crafting 256k – 16384k Fluid Storage Cells
+*   <ItemLink id="ae2fc:fluid_storage_housing:1" /> used for crafting 256k - 16384k Fluid Storage Cells
 <br> <RecipesFor id="ae2fc:fluid_storage256" output="ae2fc:fluid_storage256"/>
 <br> Housings by themselves are crafted like so:
 <br> <RecipesFor id="ae2fc:fluid_storage_housing:1" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:2" /> used for crafting 1k – 64k Multi-Fluid Storage Cells
+*   <ItemLink id="ae2fc:fluid_storage_housing:2" /> used for crafting 1k - 64k Multi-Fluid Storage Cells
 <br> <RecipesFor id="ae2fc:multi_fluid_storage1" output="ae2fc:multi_fluid_storage1" />
 <br> Housings by themselves are crafted like so:
 <br> <RecipesFor id="ae2fc:fluid_storage_housing:2" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:3" /> used for crafting 256k – 16384k Multi-Fluid Storage Cells
+*   <ItemLink id="ae2fc:fluid_storage_housing:3" /> used for crafting 256k - 16384k Multi-Fluid Storage Cells
 <br> <RecipesFor id="ae2fc:multi_fluid_storage256" output="ae2fc:multi_fluid_storage256" />
 <br> Housings by themselves are crafted like so:
 <br> <RecipesFor id="ae2fc:fluid_storage_housing:3" />
@@ -376,7 +376,7 @@ Each tier increases capacity by a factor of four and requires four components of
 
 # Essentia Storage Cells
 
-1k – 64k Essentia Storage Cells support 12 Essentia types
+1k - 64k Essentia Storage Cells support 12 Essentia types
 
 Starting at 256k, each tier increases the supported Essentia type count by 12
 

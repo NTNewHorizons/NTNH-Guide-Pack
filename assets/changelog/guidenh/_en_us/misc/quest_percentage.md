@@ -4,13 +4,13 @@ navigation:
   parent: misc.md
   icon: questbook:ItemQuestBook
 categories:
-    - Miscellaneous Changes
+    - Features & Tweaks
 author: Skorched
 date: 2026-05-30
 ---
 
 # Quest Completion Tracker
-The quest book now shows the total number of completed quests, as well as the percentage of completion! Chapter completion texts also have a similar percentage completion! Specifically, it does not track some "hidden" quests, or generally anything not immediately viewable.
+The quest book displays the total number of completed quests along with a completion percentage. Chapter completion texts also show similar progress stats. Hidden quests and items not immediately viewable are excluded from the tally.
 <FloatingImage src="./assets/quest_perc.png" width="384">
   <ImageAnnotation>
     An example of the questbook showing the percentage completion

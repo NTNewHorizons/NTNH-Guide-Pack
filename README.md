@@ -3,11 +3,11 @@
 
 Overview
 ----
-NTNH-Guide-Pack is a documentation and template repository designed for use with GuideNH - a Markdown-driven, in‑game guide framework for Minecraft 1.7.10. This repository supplies GT-New-Horizons–style guide templates, examples, and authoring workflows so contributors can create polished, searchable, in-game documentation that players can read without leaving Minecraft.
+NTNH-Guide-Pack is a documentation and template repository designed for use with GuideNH - a Markdown-driven, in-game guide framework for Minecraft 1.7.10. This repository supplies GT-New-Horizons-style guide templates, examples, and authoring workflows so contributors can create polished, searchable, in-game documentation that players can read without leaving Minecraft.
 
-NTNH players currently rely on fragmented external resources - the Wiki, Discord, videos, spreadsheets, and scattered forum posts. There is no single in‑game system that presents long‑form documentation, interactive content, searchable recipes, and structured progression in one place. That fragmentation makes discovery and learning harder for new and returning players.
+NTNH players currently rely on fragmented external resources - the Wiki, Discord, videos, spreadsheets, and scattered forum posts. There is no single in-game system that presents long-form documentation, interactive content, searchable recipes, and structured progression in one place. That fragmentation makes discovery and learning harder for new and returning players.
 
-GuideNH is an in‑game guide framework that solves the fragmentation problem by rendering Markdown content inside Minecraft (1.7.10). It is a framework only - documentation content (machines, progression, tutorials) is written by contributors and distributed as resource packs or mod assets.
+GuideNH is an in-game guide framework that solves the fragmentation problem by rendering Markdown content inside Minecraft (1.7.10). It is a framework only - documentation content (machines, progression, tutorials) is written by contributors and distributed as resource packs or mod assets.
 
 Key idea and project links:
 - Repository: https://github.com/GTNewHorizons/GuideNH
@@ -21,7 +21,7 @@ Features
 - Interactive 3D multiblock previews and model viewers
 - Automatic page discovery via standard resource pack locations (no manifest required)
 - Native multi-language support with fallback to English
-- Live preview and hot‑reload for content authors (fast edit -> test loop)
+- Live preview and hot-reload for content authors (fast edit -> test loop)
 
 Quick Start
 ----
@@ -41,7 +41,7 @@ Authoring Conventions
 Localization
 ----
 - Place language files under .../_<lang>/ (e.g., en_us.md, zh_cn.md).
-- Use the same filename and folder structure across languages; GuideNH loads per‑page translations and falls back to English.
+- Use the same filename and folder structure across languages; GuideNH loads per-page translations and falls back to English.
 
 Releases
 ----
