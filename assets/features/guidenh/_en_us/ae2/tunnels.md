@@ -12,7 +12,7 @@ date: 2026-05-27
 ---
 
 # Tunnel Patterns
-Tired of updating circuit boards or EBF protective gas in all of your patterns when you get an upgrade? There’s a new way to handle it coming in 2.9:
+Tired of updating circuit boards or other shared inputs in all of your patterns when you get an upgrade? Tunnel Patterns handle it:
 
 ## AE2 Tunnel Patterns!
 
@@ -22,4 +22,4 @@ They can be used as modular pattern building blocks by putting a <Color id="GREE
 
 You can also __chain__ Tunnel Patterns: you can have a mix of as many Tunnel Patterns and regular ingredients as desired set as inputs for another Tunnel Pattern. This allows you to define __usable input groups__ that can be shared across many recipes which can easily be modified later. You can freely rename or modify the Tunnel Pattern's ingredients without having to change <u>__any__</u> of the patterns that reference it!
 
-A great example of how to use this feature is to use it to include tiered glass, coils, or full sets of input/output hatches and buses in multi-block pseudo-crafting recipes, or for including noble gases in EBF crafts. More use cases are still being discovered!
+A great example of how to use this feature is to bundle inputs that many recipes share — such as machine frames, casings, or common catalysts — into multi-block pseudo-crafting recipes, so editing one Tunnel Pattern updates every recipe that references it. More use cases are still being discovered!

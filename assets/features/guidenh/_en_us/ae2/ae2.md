@@ -5,7 +5,7 @@ navigation:
   icon: appliedenergistics2:item.ItemExtremeStorageCell.Universe
 ---
 # Applied Energistics
-As part of 2.9, ~~Applied Energistics Simulator~~ GTNH has got a few improvements to <Color id="GREEN">Applied Energistics 2</Color>!
+NTNH ships ~~Applied Energistics Simulator~~ the GTNH fork of <Color id="GREEN">Applied Energistics 2</Color>, which comes with a few improvements over the base mod!
 
 <Category name="Applied Energistics 2" rows="3"/>
 
