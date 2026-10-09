@@ -16,6 +16,7 @@ Welcome <PlayerName />! NTNH ships many tweaks and small features that don't fit
 > This is not an exhaustive list. Between minor bug fixes and optimisations, many things cannot fit here. This section intends to highlight some of the more noticeable features and quality-of-life tweaks in the pack.
 
 # Categories
+## [Applied Energistics](./ae2/ae2.md)
 ## [Miscellaneous Changes](./misc/misc.md)
 ## [Quality of Life](./qol/qol.md)
 
